@@ -316,8 +316,8 @@ a.author{
   }
 }
     
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     a.author {
-        font-size: 50px; /* Aap apne hisaab se size set kar sakte hain */
+      font-size: 64px !important; /* Aap apne hisaab se size set kar sakte hain */
     }
 }
